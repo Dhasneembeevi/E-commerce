@@ -1,0 +1,44 @@
+form {
+    margin-top: 50px;
+}
+
+.form-con {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-con div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-con input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+}
+
+.form-con label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.form-con button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-con button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

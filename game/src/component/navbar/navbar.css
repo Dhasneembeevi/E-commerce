@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 98vw;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    color: #fff;
+    margin: 0;
+}
